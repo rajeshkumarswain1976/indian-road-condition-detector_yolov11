@@ -97,16 +97,6 @@ After running the notebook, save these plots from the output:
 
 ---
 
-### Heatmap Overlay
-
-The `generate_heatmap()` function overlays a JET colormap heatmap
-on the original image — red zones indicate areas with the highest
-concentration of detected hazards.
-
-![Heatmap Example](images/heatmap_example.png)
-
----
-
 ### Streamlit Web App
 
 The notebook writes a `app.py` file and launches it via ngrok.
@@ -115,7 +105,8 @@ Users can upload any road image and get:
 - Severity score
 - Road condition classification (GOOD / MODERATE / DANGEROUS)
 
-![App Screenshot](images/app_screenshot.png)
+![App Screenshot](images/app_screenshot1.png)
+![App Screenshot](images/app_screenshot2.png)
 
 ---
 
