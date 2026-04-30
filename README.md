@@ -165,13 +165,14 @@ Get your Kaggle API key from: kaggle.com → Account → API → Create New Toke
 ### Images Folder
 
 Create an `images/` folder in the repo and upload after running the notebook:
-images/
-├── loss_curve.png          ← after the plt.plot train/val box_loss cell
-├── metrics_curve.png       ← after the plt.plot mAP50/precision/recall cell
-├── confusion_matrix.png    ← after the sns.heatmap confusion matrix cell
-├── heatmap_example.png     ← screenshot of cv2.addWeighted heatmap output
-└── app_screenshot.png      ← screenshot of the running Streamlit app
 
+| File | Where to get it |
+|---|---|
+| `loss_curve.png` | After the plt.plot train/val box_loss cell |
+| `metrics_curve.png` | After the plt.plot mAP50/precision/recall cell |
+| `confusion_matrix.png` | After the sns.heatmap confusion matrix cell |
+| `heatmap_example.png` | Run generate_heatmap() and save output with cv2.imwrite |
+| `app_screenshot.png` | Screenshot of the running Streamlit app via ngrok |
 ---
 
 > Note: Remove your Kaggle API credentials before pushing to GitHub.
